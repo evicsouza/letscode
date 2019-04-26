@@ -16,13 +16,15 @@ import {ButtonModule} from 'primeng/button';
 import {ToastModule} from 'primeng/toast';
 import { RiscoEstudanteComponent } from './risco-estudante/risco-estudante.component';
 import {ProgressBarModule} from 'primeng/progressbar';
+import { ChatbotComponent } from './chatbot/chatbot.component';
 
 @NgModule({
   declarations: [
     SelfInstructionComponent,
     SelecionarPlanejamentoComponent,
     CadastroPlanejamentoComponent,
-    RiscoEstudanteComponent
+    RiscoEstudanteComponent,
+    ChatbotComponent
   ],
   imports: [
     CommonModule,
